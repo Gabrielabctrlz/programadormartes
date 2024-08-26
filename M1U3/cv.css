@@ -1,0 +1,66 @@
+h1 {
+    /*CV*/
+    color: white;
+    background: black;
+    text-transform: uppercase;
+    /*mayúscula*/
+    text-align: center;
+    /*alineacion*/
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+}
+
+h2 {
+    /*Nombre del personaje*/
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 25px;
+
+
+}
+
+h3 {
+    /*Administrativo*/
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 25px;
+
+}
+h4{ /*DATOS + EXP*/
+    color: antiquewhite;
+    background-color: black;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+
+}
+h5{
+    font-size: 20px;
+    text-align: center;
+}
+
+p {
+    font-style: normal;
+    font-size: 18px;
+}
+.destacados{
+    color: grey;
+}
+#caja{
+    background-color: orangered;
+    width: 300px; /*ancho del recuadro*/
+    height: 300px; /*largo del recuadro*
+    padding: 20px; /*para darle un pco mas de aire al texto, LA CAJA CRECE*/
+    border: 2px solid black; /*marco*/
+    box-sizing: border-box;
+   
+}
+#caja h2{
+    color: blue;
+
+}
