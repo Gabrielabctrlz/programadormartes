@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+</head>
+
+<body>
+    <script>
+        const Metros = parseInt(prompt("Ingrese la distancia en metros para determinar el medio de transporte", ""));
+
+        const valor1 = "Pie";
+        const valor2 = "Bicicleta";
+        const valor3 = "Colectivo";
+        const valor4 = "Auto";
+        const valor5 = "Avion";
+
+        if (Metros >= 0 && Metros < 1000) {
+            document.write(`El medio de transporte es a ${valor1}`);
+
+        } else if (Metros >= 1000 && Metros < 10000) { document.write(`El medio de transporte es la ${valor2}`); }
+        else if (Metros >= 10000 && Metros < 30000) { document.write(`El medio de transporte es el ${valor3}`); }
+        else if (Metros >= 30000 && Metros < 1000000) {document.write(`El medio de transporte es el ${valor4}`);}
+        else if (Metros >= 1000000){document.write(`El medio de transporte es el ${valor5}`)}
+        else {document.write(`Medio de transporte no disponible`);}
+
+
+    </script>
+</body>
+
+
+</html>
