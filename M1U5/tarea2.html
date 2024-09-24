@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>TAREA 2</title>
+</head>
+
+<body>
+    <h1>Ingrese un Comentario: </h1>
+    <div>
+        <p> <label>Mensaje: <br> </br>
+                <textarea id="mensaje" name="mensaje" cols="30" rows="10"></textarea></label></p>
+    </div>
+    <div class="contador">Caracteres: <span id="contador">0</span></div>
+    
+    <script>
+
+        const textarea = document.getElementById("mensaje");
+        const contador = document.getElementById("contador");
+        textarea.addEventListener("input", function () {
+
+            contador.textContent = textarea.value.length;
+        });
+
+    </script>
+</body>
+
+</html>
