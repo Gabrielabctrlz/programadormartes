@@ -1,0 +1,12 @@
+.reseñas {
+    background: #efefef;
+
+}
+.mapa iframe {
+    width: 100%;
+    aspect-ratio: 1.2;
+
+}
+html {
+    scroll-behavior: smooth;
+}
